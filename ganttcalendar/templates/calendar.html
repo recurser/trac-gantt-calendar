@@ -72,6 +72,7 @@ body { behavior:url("${href.chrome('tc/csshover2.htc')}"); }
 <body>
 
 <?python
+ import calendar
  mday = first
 ?>
 <table border="1">
@@ -83,10 +84,10 @@ body { behavior:url("${href.chrome('tc/csshover2.htc')}"); }
     <td>
     </td>
     <td>
-　      マイルストーン<select name="selected_milestone">
+　      Milestone<select name="selected_milestone">
              <option py:for="m in milestones" value="${m.name}" selected="${selected_milestone==m.name or None}">${m.name}</option>
         </select>
-　　    <input type="checkbox" name="show_my_ticket" checked="$show_my_ticket" />My Tickets
+　　    <input type="checkbox" name="show_my_ticket" checked="$show_my_ticket" />Only display my tickets
     </td>
     <td align="right">
 　　    <input type="submit" value="Update" />
@@ -94,23 +95,21 @@ body { behavior:url("${href.chrome('tc/csshover2.htc')}"); }
   </tr>
   <tr>
     <td>
-        <input type="button" value="&lt;&lt;Month ${prev.month}" onclick="form.year.value = ${prev.year}; form.month.value = ${prev.month}; form.submit();"/>
+        <input type="button" value="&lt;&lt; ${calendar.month_name[prev.month]}" onclick="form.year.value = ${prev.year}; form.month.value = ${prev.month}; form.submit();"/>
     </td>
     <td align="center">
+        <select name="month">
+             <option py:for="m in [1,2,3,4,5,6,7,8,9,10,11,12]"
+                     value="$m" selected="${m==current.month or None}">${calendar.month_name[m]}</option>
+        </select>
         <select name="year">
              <option py:for="y in [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]"
                      value="$y" 
                      selected="${y==current.year or None}">$y</option>
         </select>
-        Year
-        <select name="month">
-             <option py:for="m in [1,2,3,4,5,6,7,8,9,10,11,12]"
-                     value="$m" selected="${m==current.month or None}">$m</option>
-        </select>
-        Month
     </td>
     <td align="right">
-       <input type="button" value="Month ${next.month}&gt;&gt;" onclick="form.year.value = ${next.year}; form.month.value = ${next.month}; form.submit();"/>
+       <input type="button" value="${calendar.month_name[next.month]} &gt;&gt;" onclick="form.year.value = ${next.year}; form.month.value = ${next.month}; form.submit();"/>
     </td>
   </tr>
 </table>
