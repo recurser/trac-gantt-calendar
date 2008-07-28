@@ -112,7 +112,7 @@ class TicketCalendarPlugin(Component):
            tickets.append(ticket)
 
         # get roadmap
-        sql = ("SELECT name, due, completed, description from MILESTONE")
+        sql = ("SELECT name, due, completed, description from milestone")
         self.log.debug(sql)
         cursor.execute(sql)
 
