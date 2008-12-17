@@ -134,12 +134,12 @@ div.ticket:hover span.tip{
 <table class="list">
   <tr>
     <td>
-        <input type="button" value="&lt;&lt; ${calendar.month_name[prev.month]}" onclick="form.year.value = ${prev.year}; form.month.value = ${prev.month}; form.submit();"/>
+        <input type="button" value="&lt;&lt; ${to_unicode(calendar.month_name[prev.month])}" onclick="form.year.value = ${prev.year}; form.month.value = ${prev.month}; form.submit();"/>
     </td>
     <td align="center">
         <select name="month">
              <option py:for="m in [1,2,3,4,5,6,7,8,9,10,11,12]"
-                     value="$m" selected="${m==current.month or None}">${calendar.month_name[m]}</option>
+                     value="$m" selected="${m==current.month or None}">${to_unicode(calendar.month_name[m])}</option>
         </select>
         <select name="year">
              <option py:for="y in [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]"
@@ -149,7 +149,7 @@ div.ticket:hover span.tip{
 　　　　Current Day<input type="text" name="baseday" value="${baseday.year}/${baseday.month}/${baseday.day}" length="10"/>
     </td>
     <td align="right">
-       <input type="button" value="${calendar.month_name[next.month]} &gt;&gt;" onclick="form.year.value = ${next.year}; form.month.value = ${next.month}; form.submit();"/>
+       <input type="button" value="${to_unicode(calendar.month_name[next.month])} &gt;&gt;" onclick="form.year.value = ${next.year}; form.month.value = ${next.month}; form.submit();"/>
     </td>
   </tr>
   <tr>

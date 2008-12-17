@@ -99,12 +99,12 @@ class TicketCalendarPlugin(Component):
            due_assign_date = None
            due_close_date = None
            try:
-              t = time.strptime(due_assign,"%Y/%m/%d")
+              t = time.strptime(due_assign,"%d.%m.%Y")
               due_assign_date = date(t[0],t[1],t[2])
            except ValueError, TypeError:
               None
            try:
-              t = time.strptime(due_close,"%Y/%m/%d")
+              t = time.strptime(due_close,"%d.%m.%Y")
               due_close_date = date(t[0],t[1],t[2])
            except ValueError, TypeError:
               None
