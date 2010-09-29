@@ -34,7 +34,7 @@ To configure the plugin, you first need to add it to the _[components]_ section 
 
 {% highlight python %}
 [components]
-ganttcalendar.ticketcalendar.ticketcalendarplugin = enabled                                                                              
+ganttcalendar.ticketcalendar.ticketcalendarplugin = enabled
 ganttcalendar.ticketgantt.ticketganttchartplugin  = enabled
 {% endhighlight %}
 
