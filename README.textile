@@ -1,11 +1,9 @@
 
-h2. Attribution
-
-This is basically an English translation of the Japanese plugin developed by the "Shibuya Trac":http://sourceforge.jp/projects/shibuya-trac/ project - I've cleaned up a few things but the bulk of the work is theirs.
-
 h2. About
 
 The GanttCalendar plugin adds ticket Gantt chart and calendar functionality to Trac. It is licensed under the "new BSD license":http://www.opensource.org/licenses/bsd-license.php .
+
+It's basically an English translation of the Japanese plugin developed by the "Shibuya Trac":http://sourceforge.jp/projects/shibuya-trac/ project - I've cleaned up a few things but the bulk of the work is theirs.
 
 h2. Requirements
 
