@@ -9,7 +9,7 @@ The GanttCalendar plugin adds ticket Gantt chart and calendar functionality to T
 
 h2. Requirements
 
-This plugin is only compatible with Trac version 0.11 and above - 0.10 users will need to upgrade. The install instructions provided will only work if you have ez_setup installed - see the "TracPlugins wiki":http://trac.edgewall.org/wiki/TracPlugins if you have any problems.
+This plugin is only compatible with Trac version 0.11 and above - 0.10 users will need to upgrade. The install instructions provided will only work if you have 'ez_setup' installed - see the "TracPlugins wiki":http://trac.edgewall.org/wiki/TracPlugins if you have any problems.
 
 h2. Installation
 
@@ -26,7 +26,7 @@ Then use 'easy_install' to install it :
 > sudo easy_install dist/TracGanttCalendarPlugin-0.1-py2.4.egg
 {% endhighlight %}
 
-If you don't have ez_setup installed, see the "TracPlugins wiki":http://trac.edgewall.org/wiki/TracPlugins for installation instructions
+If you don't have 'ez_setup' installed, see the "TracPlugins wiki":http://trac.edgewall.org/wiki/TracPlugins for installation instructions
 
 h2. Configuration
 
