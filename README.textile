@@ -55,3 +55,15 @@ due_close.order  = 2
 {% endhighlight %}
 
 The start & end date fields should be inputted in the format _YYYY/MM/DD_. You can make these fields a little more user-friendly using the "datefield plugin":http://trac-hacks.org/wiki/DateFieldPlugin .
+
+h2. Screenshots
+
+!http://recursive-design.com/images/projects/gantt-calendar/Trac_Gantt_Chart.png!
+
+!http://recursive-design.com/images/projects/gantt-calendar/Trac_Calendar.png!
+
+!http://recursive-design.com/images/projects/gantt-calendar/Ticket_Creation.png!
+
+h2. Bug Reports
+
+If you come across any problems, please "create a ticket":http://recursive-design.com/code/p/gantt-calendar/issues/ and we'll try to get it fixed as soon as possible.
