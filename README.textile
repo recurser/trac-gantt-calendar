@@ -5,11 +5,11 @@ This is basically an English translation of the Japanese plugin developed by the
 
 h2. About
 
-The GanttCalendar plugin adds ticket Gantt chart and calendar functionality to Trac. It is licensed under the "MIT license":http://www.opensource.org/licenses/mit-license.php .
+The GanttCalendar plugin adds ticket Gantt chart and calendar functionality to Trac. It is licensed under the "new BSD license":http://www.opensource.org/licenses/bsd-license.php .
 
-h3. Requirements
+h2. Requirements
 
-This plugin is only compatible with Trac version 0.11 and above - 0.10 users will need to upgrade. The install instructions provided will only work if you have ez_setup installed - see http://trac.edgewall.org/wiki/TracPlugins if you have any problems.
+This plugin is only compatible with Trac version 0.11 and above - 0.10 users will need to upgrade. The install instructions provided will only work if you have ez_setup installed - see the "TracPlugins wiki": http://trac.edgewall.org/wiki/TracPlugins if you have any problems.
 
 h2. Installation
 
