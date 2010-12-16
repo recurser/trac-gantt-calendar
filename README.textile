@@ -1,4 +1,18 @@
 
+h2. 2010/12/16 Update
+
+I've been in touch with the original author of this plugin, and his latest version (0.12) supports English now. 
+
+I recommend you {{ "svn.sourceforge.jp/svnroot/shibuya-trac/plugins/ganttcalendarplugin/trunk" | ext_link: "use his svn repository" }} rather than this out-dated version :
+
+{% highlight bash %}
+> svn co http://svn.sourceforge.jp/svnroot/shibuya-trac/plugins/ganttcalendarplugin/trunk ganttcalendarplugin
+{% endhighlight %}
+
+The version here will remain available for those that want to install the 0.11 version, but will no longer be maintained, and the sourceforge repository above will be the home of this plugin moving forward.
+
+More information is available at the {{ "trac-hacks.org/wiki/GanttCalendarPlugin" | ext_link: "Trac-Hacks plugin page." }}
+
 h2. About
 
 The GanttCalendar plugin adds ticket Gantt chart and calendar functionality to Trac. It is licensed under the "new BSD license":http://www.opensource.org/licenses/bsd-license.php .
