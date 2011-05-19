@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='TracGanttCalendarPlugin', version='0.1.0',
+    name='TracGanttCalendarPlugin', version='0.11',
     packages=find_packages(exclude=['*.tests*']),
 
     author = "Dave Perrett",
