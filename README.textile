@@ -3,7 +3,7 @@ h2. 2010/12/16 Update
 
 I've been in touch with the original author of this plugin, and his latest version (0.12) supports English now. 
 
-I recommend you {{ "svn.sourceforge.jp/svnroot/shibuya-trac/plugins/ganttcalendarplugin/trunk" | ext_link: "use his svn repository" }} rather than this out-dated version :
+I recommend you "use his svn repository":http://svn.sourceforge.jp/svnroot/shibuya-trac/plugins/ganttcalendarplugin/trunk rather than this out-dated version :
 
 {% highlight bash %}
 > svn co http://svn.sourceforge.jp/svnroot/shibuya-trac/plugins/ganttcalendarplugin/trunk ganttcalendarplugin
@@ -11,7 +11,7 @@ I recommend you {{ "svn.sourceforge.jp/svnroot/shibuya-trac/plugins/ganttcalenda
 
 The version here will remain available for those that want to install the 0.11 version, but will no longer be maintained, and the sourceforge repository above will be the home of this plugin moving forward.
 
-More information is available at the {{ "trac-hacks.org/wiki/GanttCalendarPlugin" | ext_link: "Trac-Hacks plugin page." }}
+More information is available at the "Trac-Hacks plugin page":http://trac-hacks.org/wiki/GanttCalendarPlugin .
 
 h2. About
 
@@ -78,4 +78,4 @@ h2. Screenshots
 
 h2. Bug Reports
 
-If you come across any problems, please "create a ticket":http://recursive-design.com/code/p/gantt-calendar/issues/ and we'll try to get it fixed as soon as possible.
+If you come across any problems, please "create a ticket":https://github.com/recurser/trac-gantt-calendar/issues and we'll try to get it fixed as soon as possible.
