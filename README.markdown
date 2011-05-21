@@ -47,7 +47,7 @@ If you don't have 'ez_setup' installed, see the [TracPlugins wiki](http://trac.e
 Configuration
 -------------
 
-To configure the plugin, you first need to add it to the _[components]_ section in _trac.ini_ :
+To configure the plugin, you first need to add it to the _components_ section in _trac.ini_ :
 
 ```python
 [components]
